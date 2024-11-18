@@ -1,0 +1,32 @@
+html{
+    font-family: "roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.selection{
+    display: flex;
+    margin-left: 600px;
+    margin-right: 600px;
+    justify-content: center;
+}
+
+#rock, #paper, #scissors{
+    flex: 1;
+    height: 100px;
+    margin: 50px;
+}
+
+.score{
+    display: flex;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 300px;
+    text-align: center;
+    justify-content: center;
+}
+
+.score1, .score2{
+    flex: 1;
+    font-size: 60px;
+}
